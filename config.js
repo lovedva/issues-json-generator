@@ -30,7 +30,8 @@ export const config = {
   generator: {
     // 是否启用生成器
     enabled: true,
-    
+    // 目标仓库地址（格式：用户名/仓库名）
+    repo: 'lovedva/issues-json-generator',
     // Issue排序方式
     // updated/created: 更新时间/创建时间
     sort: 'created',
@@ -54,7 +55,7 @@ export const config = {
 
     // 目标链接
     // 检查网站是否包含此链接
-    targetLink: 'https://xaoxuu.com',
+    targetLink: 'https://lovedva.gitlab.io',
     
   },
 
